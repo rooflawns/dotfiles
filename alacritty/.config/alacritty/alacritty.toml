@@ -1,0 +1,36 @@
+[general]
+import = [
+   "~/.config/alacritty/themes/themes/everforest_dark.toml"		
+   #"~/.config/alacritty/themes/themes/baitong.toml"		
+   #"~/.config/alacritty/themes/themes/catppuccin.toml"		
+   #"~/.config/alacritty/themes/themes/google.toml"		
+   #"~/.config/alacritty/themes/themes/gotham.toml"		
+   #"~/.config/alacritty/themes/themes/1705.toml"		
+   # "~/.config/alacritty/themes/themes/gruvbox_dark.toml"		
+   # "~/.config/alacritty/themes/themes/hyper.toml"		
+   # "~/.config/alacritty/themes/themes/inferno.toml"		
+   # "~/.config/alacritty/themes/themes/tokyo_night.toml"		
+   # "~/.config/alacritty/themes/themes/pastel_dark.toml"	
+]
+
+[window]
+decorations_theme_variant = "Dark"
+padding = {x = 5, y = 5} 
+#padding = { x = 0, y = 0 } 
+
+#decorations = "None"
+# decorations = "None"
+opacity = 0.8
+#opacity = 1 
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "ExtraBold" }
+size = 14
+
+[keyboard]
+bindings = [ 
+	{ key = "V", mods = "Control", action = "Paste" }, 
+	{ key = "x", mods = "Control", action = "Copy" }, 
+	{ key = "n", mods = "Control", action = "CreateNewWindow" }, 
+	{ key = "Q", mods = "Control", action = "Quit" } 
+	]
