@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$PATH:/home/rooflawn/.local/bin
 
+alias p='python3'
 alias n='nvim'
 alias hp='hyprpm'
 alias wifi='nmtui'
